@@ -18,6 +18,23 @@ const places = [
       "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/2.jpg",
       "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/3.jpg"
     ]
+  },
+  {
+    id: 2,
+    name: "Площадка у Глобуса",
+    lat: 55.792619,
+    lng: 37.941212,
+    address: "Московская область, г. Балашиха, между ТК 'Город' и школой № 8",
+    equipment: "Огромное колличество разновысотных перекладин и брусьев. Есть беговые дорожки с резиновым покрытием.",
+    submittedBy: "Safrayt",
+    history: [
+      { year: 2023, event: "Открыта для посещений (найдена)" }
+    ],
+    photos: [
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/1.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/2.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/3.jpg"
+    ]
   }
 ];
 
