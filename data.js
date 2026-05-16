@@ -31,9 +31,12 @@ const places = [
       { year: 2023, event: "Открыта для посещений (найдена)" }
     ],
     photos: [
-      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/1.jpg",
-      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/2.jpg",
-      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/3.jpg"
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/1.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/2.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/3.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/4.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/5.jpg",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id2/6.jpg"
     ]
   }
 ];
