@@ -14,7 +14,7 @@ const places = [
       { year: 2016, event: "Открыта для посещений (найдена)" }
     ],
     photos: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5SyHpg5nPQcJgN4BDty9xWcBD7VSpNEnog&s",
+      "https://cdn.jsdelivr.net/gh/Safrayt/BarBossMap@main/images/id1/1.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUuK5ipbL6YxvBaifa1I3u57pAsJAHoA5-6A&s"
     ]
   }
