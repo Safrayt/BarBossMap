@@ -59,22 +59,22 @@
       let photoHtml = '';
       if (place.photos && place.photos.length > 0) {
         photoHtml = `
-          <div style="margin-top: 8px;">
-            <a href="#place/${place.id}" style="text-decoration: none;">
-              <img src="${escapeHtml(place.photos[0])}" alt="Фото" style="max-width: 180px; max-height: 120px; border-radius: 8px; cursor: pointer;">
+          <div style="text-align: center; margin: 6px 0 10px 0;">
+            <a href="#place/${place.id}" style="display: inline-block;">
+              <img src="${escapeHtml(place.photos[0])}" alt="Фото" style="display: block; margin: 0 auto; max-width: 200px; width: auto; height: auto; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
             </a>
           </div>
         `;
-      }
+    }
       
       const popupContent = `
-        <div style="min-width: 200px;">
-          <b>${escapeHtml(place.name)}</b><br>
-          ${escapeHtml(place.address)}<br>
-          ${photoHtml}
-          <a href="#place/${place.id}" style="display: inline-block; margin-top: 8px;">📖 Подробнее →</a>
-        </div>
-      `;
+        <div style="text-align: center;">
+        <b style="font-size: 1.15rem; display: block; margin-bottom: 4px;">${escapeHtml(place.name)}</b>
+        <span style="font-size: 0.85rem; color: #4a627a;">${escapeHtml(place.address)}</span>
+        ${photoHtml}
+        <a href="#place/${place.id}" class="popup-button" style="display: inline-block; background: #2c6e9e; color: white; text-decoration: none; padding: 6px 20px; margin-top: 6px; border-radius: 40px; font-weight: 600; font-size: 0.9rem;">Подробнее →</a>
+      </div>
+    `;
       marker.bindPopup(popupContent);
       bounds.push([place.lat, place.lng]);
     });
